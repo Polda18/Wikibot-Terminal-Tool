@@ -30,3 +30,6 @@
 release/win32/*.exe
 release/linux/*
 release/macos/*.app
+
+# Project files
+.vscode/*
