@@ -27,6 +27,6 @@
 *.lib
 
 # Executables
-*.exe
-*.out
-*.app
+release/win32/*.exe
+release/linux/*
+release/macos/*.app
