@@ -13,7 +13,6 @@ This terminal tool is supposed to be used for your wikibot control.
 * Login credentials are saved for further use in program memory (encrypted) in case login session token expires.
 * When login fails (incorrect login credentials), program asks you for login again. You have up to 3 attempts per hour. First unsuccessful attempt sets clock for next 3 attempts. After 3rd unsuccessfull attempt, program logs date and time of next 3 attempts available in a read-only system protected file and terminates.
 * Anyway, before login credentials, program checks for wiki server online status (running or down). If the server is down (unable to connect), program ends with a message to try again later.
-* After successfully connected and logged in, you can write commands:
-  * `help` for printing out help topics (use `help <topic>` or `help <command>` for further details):
-    * `help controls` - print out controls commands list
-    * _tbd_
+* After successfully connected and logged in, you can write commands (see `Wiki/help` for further details).
+* When you got all neccessary changes to you bot done, you can logout (simply use `logout` command, takes no parameters)
+* After logout, program will halt command line with key press prompt. After key stroke, the program ends.
