@@ -1,0 +1,30 @@
+// This is JSON structure for your wikibot functions and commands definition used by the terminal tool
+{
+    "functions": {    // Needs to be exactly named "functions"
+        "function_name": [    // Name of this list is the function name - make as much lists as your wikibot functions number is
+            {
+                "param_name": "param_type"    // parameter name is a key, and type (int, long, float, double, string, etc.) is value
+            },
+            {
+                "param_name": "param_type"    // take as much parameters as your function posseses
+            }
+        ],
+        "...": [
+            {"...": "..."}    // Next function takes place here
+        ]
+    },
+    "commands": {     // Needs to be exactly named "commands"
+        "command_name": [     // Name of this list is the command name - make as much lists as your wikibot commands number listens to
+            {
+                "param_name": "param_type"    // parameter name is a key, and type (int, long, float, double, string, etc.) is value
+            },
+            {
+                "param_name": "param_type"    // take as much parameters as your command listens to
+            }
+        ],
+        "...": [
+            {"...": "..."}    // Next command takes place here
+        ]
+    }
+}
+// EOF
