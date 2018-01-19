@@ -15,4 +15,4 @@ This terminal tool is supposed to be used for your wikibot control.
 * Program checks for wiki server and bot script files online status (running or down) before commands listening. If the wiki server is down or bot script files are unreachable (unable to connect), program ends with a message to try again later.
 * After successfully connected and logged in, you can write other commands (see `wiki/help` on GitHub repository for full details).
 * When you got all neccessary changes to your bot done, you can logout (simply use `logout` command, takes no parameters)
-* After logout, program will halt command line with key press prompt. After key stroke, the program ends.
+* After logout or session end, program will halt command line with key press prompt. After key stroke, the program ends.
