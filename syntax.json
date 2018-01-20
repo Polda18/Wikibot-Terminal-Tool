@@ -6,15 +6,15 @@
             /* Name of this list is the function name - make as much lists as your wikibot functions number is */
             {
                 "param_name": "param_type"
-                /* parameter name is a key, and type (int, long, float, double, string, etc.) is value */
+                    /* parameter name is a key, and type (int, long, float, double, string, etc.) is value */
             },
             {
                 "param_name": "param_type"
-                /* take as much parameters as your function posseses */
+                    /* take as much parameters as your function posseses */
             }
         ],
         "...": [
-            {"...": "..."}
+            { "...": "..." }
             /* Next function takes place here */
         ]
     },
@@ -23,16 +23,19 @@
         "command_name": [
             /* Name of this list is the command name - make as much lists as your wikibot commands number listens to */
             {
-                "param_name": "param_type"
-                /* parameter name is a key, and type (int, long, float, double, string, etc.) is value */
+                "param_name": "param_type",
+                "required": "boolean"
+                    /* parameter name is a key, and type (int, long, float, double, string, etc.) is value */
+                    /* required takes a boolean value (true or false) - default is false */
             },
             {
-                "param_name": "param_type"
-                /* take as much parameters as your command listens to */
+                "param_name": "param_type",
+                "required": "boolean"
+                    /* take as much parameters as your command listens to */
             }
         ],
         "...": [
-            {"...": "..."}
+            { "...": "..." }
             /* Next command takes place here */
         ]
     }

@@ -1,0 +1,20 @@
+{
+    "functions": {
+        "wikibot_do_typos_random": [{
+            "number_pages": "int"
+        }],
+        "wikibot_do_typos_specific": [{
+            "pages_list": "string"
+        }]
+    },
+    "commands": {
+        "manual_typos_random": [{
+            "number_pages": "int",
+            "required": "true"
+        }],
+        "manual_typos_specific": [{
+            "pages_list": "string",
+            "required": "true"
+        }]
+    }
+}
