@@ -27,9 +27,9 @@
 *.lib
 
 # Executables
-release/win32/*.exe
-release/linux/*
-release/macos/*.app
+bin/win32/*.exe
+bin/linux/*
+bin/macos/*.app
 
 # Project files
 .vscode/*

@@ -1,20 +1,41 @@
 {
     "functions": {
-        "wikibot_do_typos_random": [{
+        "wikibot_do_manual_typos_random": [{
             "number_pages": "int"
         }],
-        "wikibot_do_typos_specific": [{
+        "wikibot_do_manual_typos_specific": [{
             "pages_list": "string"
-        }]
+        }],
+        "wikibot_configure_typos": [{
+                "number_pages": "int"
+            },
+            {
+                "running": "bool"
+            }
+        ],
     },
     "commands": {
-        "manual_typos_random": [{
-            "number_pages": "int",
-            "required": "true"
-        }],
-        "manual_typos_specific": [{
-            "pages_list": "string",
-            "required": "true"
+        "manual": [{
+            "typos": {
+                "random": [{
+                    "number_pages": "int",
+                    "required": "true"
+                }],
+                "specific": [{
+                    "pages_list": "string",
+                    "required": "true"
+                }]
+            },
+            "vandalism": {
+                "random": [{
+                    "number_pages": "int",
+                    "required": "true"
+                }],
+                "specific": [{
+                    "pages_list": "string",
+                    "required": "true"
+                }]
+            }
         }]
     }
 }
