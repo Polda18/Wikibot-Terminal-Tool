@@ -11,9 +11,12 @@
 
 #include <string>
 
-class wikibot {
-    class locale {
-        class general {
+namespace wikibot
+{
+    class locale
+    {
+        class general
+        {
             // General locale strings
         public:
             std::string done_capt;
@@ -28,14 +31,16 @@ class wikibot {
             std::string log_error;
         };
         
-        class header {
+        class header
+        {
             // Header locale strings
         public:
             std::string program_name;
             std::string version;
         };
 
-        class online_check {
+        class online_check
+        {
             // Check of server online state locale strings
         public:
             std::string checking_wiki_server;
@@ -43,14 +48,16 @@ class wikibot {
             std::string checking_json_define;
         };
 
-        class login {
+        class login
+        {
             // Login session locale strings
         public:
             std::string uname_capt;
             std::string passw_capt;
         };
 
-        class config {
+        class config
+        {
             // Configuration session locale strings
         public:
             std::string head_capt;
@@ -59,7 +66,8 @@ class wikibot {
             std::string json_define_capt;
         };
 
-        class command_loop {
+        class command_loop
+        {
             // Command loop session locale strings
         public:
             std::string prompt;
