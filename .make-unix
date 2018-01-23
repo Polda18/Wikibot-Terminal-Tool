@@ -1,0 +1,2 @@
+# Compile guide for Unix based systems
+g++ main.cpp -o wikibot -finput-charset=utf-8 -fexec-charset=utf-8
