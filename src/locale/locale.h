@@ -3,6 +3,7 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: locale.h
+ * Description: General locale header file
  ***************************************************************/
 
 #ifndef LOCALE_H
