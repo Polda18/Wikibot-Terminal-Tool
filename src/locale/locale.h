@@ -13,6 +13,8 @@
 class wikibot {
     class locale {
         class general {
+            // General locale strings
+        public:
             std::string done_capt;
             std::string error_capt;
             std::string error_fopen;
@@ -26,12 +28,14 @@ class wikibot {
         };
         
         class header {
+            // Header locale strings
         public:
             std::string program_name;
             std::string version;
         };
 
         class online_check {
+            // Check of server online state locale strings
         public:
             std::string checking_wiki_server;
             std::string checking_main_script;
@@ -39,12 +43,14 @@ class wikibot {
         };
 
         class login {
+            // Login session locale strings
         public:
             std::string uname_capt;
             std::string passw_capt;
         };
 
         class config {
+            // Configuration session locale strings
         public:
             std::string head_capt;
             std::string wiki_server_capt;
@@ -53,6 +59,7 @@ class wikibot {
         };
 
         class command_loop {
+            // Command loop session locale strings
         public:
             std::string prompt;
             std::string syntax_incorrect;
