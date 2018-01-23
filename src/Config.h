@@ -5,27 +5,37 @@
  * File: Config.h
  ***************************************************************/
 
+#ifndef CONFIG_H
+#define CONFIG_H
+
 #include <iostream>
 #include <fstream>
 #include <string>
 
-class Config {
-private:
-    std::string wiki_server;
-    std::string main_script;
-    std::string definitions_file;
+#include "locale/locale.h"
 
-public:
-    // Constructor
-    Config(void);
+class wikibot {
+    class Config
+    {
+    private:
+        std::string wiki_server;
+        std::string main_script;
+        std::string definitions_file;
 
-    // Get configuration points
-    std::string get_wiki_server();
-    std::string get_main_script();
-    std::string get_definitions_file();
+    public:
+        // Constructor
+        Config(void);
 
-    // Set configuration points
-    void set_wiki_server(std::string);
-    void set_main_script(std::string);
-    void set_definitions_file(std::string);
-}
+        // Get configuration points
+        std::string get_wiki_server();
+        std::string get_main_script();
+        std::string get_definitions_file();
+
+        // Set configuration points
+        void set_wiki_server(std::string);
+        void set_main_script(std::string);
+        void set_definitions_file(std::string);
+    };
+};
+
+#endif

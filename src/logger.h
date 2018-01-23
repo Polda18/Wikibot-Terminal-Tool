@@ -5,12 +5,22 @@
  * File: logger.h
  ***************************************************************/
 
+#ifndef LOGGER_H
+#define LOGGER_H
+
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <ctime>
 
-class logger {
-static:
-    log(std::string line, std::string file);
-}
+#include "locale/locale.h"
+
+class wikibot {
+        class logger
+    {
+    static:
+        log(std::string line, std::string file);
+    };
+};
+
+#endif

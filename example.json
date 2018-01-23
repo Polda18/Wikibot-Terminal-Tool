@@ -6,6 +6,12 @@
         "wikibot_do_manual_typos_specific": [{
             "pages_list": "string"
         }],
+        "wikibot_do_manual_vandalism_random": [{
+            "number_pages": "int"
+        }],
+        "wikibot_do_manual_vandalism_specific": [{
+            "pages_list": "string"
+        }]
         "wikibot_configure_typos": [{
                 "number_pages": "int"
             },

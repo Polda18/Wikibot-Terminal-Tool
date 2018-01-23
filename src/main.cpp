@@ -9,9 +9,8 @@
 #include <fstream>
 #include <string>
 
-//#include "locale.cs.CZ.h"
-//#include "locale.en.US.h"
-//#include "functions.h"
+#include "locale/locale.h"
+#include "functions.h"
 
 int main(void) {
     int ret = 0;
