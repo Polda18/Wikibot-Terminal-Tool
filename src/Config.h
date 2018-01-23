@@ -14,7 +14,8 @@
 
 #include "locale/locale.h"
 
-class wikibot {
+namespace wikibot
+{
     class Config
     {
     private:
