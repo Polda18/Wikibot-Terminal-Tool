@@ -11,6 +11,7 @@
 
 #include "locale/locale.h"
 #include "functions.h"
+#include "logger.h"
 
 int main(void) {
     int ret = 0;
