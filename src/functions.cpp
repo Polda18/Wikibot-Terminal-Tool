@@ -3,11 +3,12 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: functions.cpp
+ * Description: Functions definition file (source code)
  ***************************************************************/
 
 #include "functions.h"
 
-void configure(int config_type) {
+void wikibot::configure(int config_type) {
     switch(config_type) {
         case 1:
             config_wiki_server();
