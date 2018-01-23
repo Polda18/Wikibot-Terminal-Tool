@@ -79,8 +79,11 @@ g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp874
 ;; OEM876: OCR-A
 g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp876
 
-;; OEM877: KOI8-R
+;; OEM877: OCR-B
 g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp877
+
+;; OEM878: KOI8-R
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp878
 
 ;; OEM891: Korean
 g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp891
