@@ -3,6 +3,7 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: functions.h
+ * Description: Functions definition file
  ***************************************************************/
 
 #ifndef FUNCTIONS_H
