@@ -3,11 +3,12 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: logger.cpp
+ * Description: Wikibot logger class for logging into file
  ***************************************************************/
 
 #include "logger.h"
 
-logger::log(std::string line, std::string file) {
+wikibot::logger::log(std::string line, std::string file) {
     std::ofstream logfile(file, std::ios_base::app);
     time_t t = time(0);
     struct tm * now = local_time(&t);
