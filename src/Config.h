@@ -3,6 +3,7 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: Config.h
+ * Description: Configuration class for storing config data
  ***************************************************************/
 
 #ifndef CONFIG_H
