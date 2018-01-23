@@ -18,9 +18,12 @@
 
 //---------------------------------------------------------------
 
-// Configuration
-void configure(int config_type);
-void read_config(void);
-void write_config(void);
+namespace wikibot
+{
+    // Configuration
+    void configure(int config_type);
+    void read_config(void);
+    void write_config(void);
+}
 
 #endif
