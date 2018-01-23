@@ -3,6 +3,7 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: logger.h
+ * Description: Wikibot logger namespace for logging into file
  ***************************************************************/
 
 #ifndef LOGGER_H
@@ -15,11 +16,10 @@
 
 #include "locale/locale.h"
 
-class wikibot {
-        class logger
+namespace wikibot {
+    namespace logger
     {
-    static:
-        log(std::string line, std::string file);
+        void log(std::string line, std::string file);
     };
 };
 
