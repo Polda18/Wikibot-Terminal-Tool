@@ -3,6 +3,7 @@
  * LICENCE: GNU-GPL-v3.1
  * 
  * File: main.cpp
+ * Description: Main executable script source code
  ***************************************************************/
 
 #include <iostream>
@@ -13,7 +14,8 @@
 #include "functions.h"
 #include "logger.h"
 
-int main(void) {
+int main(void)
+{
     int ret = 0;
 
     // CODE HERE
