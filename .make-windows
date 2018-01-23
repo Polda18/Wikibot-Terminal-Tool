@@ -1,0 +1,86 @@
+;; OEM437: US [English-US]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp437
+
+;; OEM720: Arabic
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp720
+
+;; OEM737: Greek
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp737
+
+;; OEM775: Latin-7 [Estonian, Latvian, Lithuanian]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp775
+
+;; OEM808: Belarusian, Ukrainian, Russian
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp808
+
+;; OEM850: Latin-1 [English-UK, German, Irish, Welsh]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp850
+
+;; OEM851: Greek [Greek, French, German]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp851
+
+;; OEM852: Latin-2 [German, Czech, Slovak, Polish, Hungarian]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp852
+
+;; OEM853: Latin-3 [Turkish, Maltese, Esperanto]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp853
+
+;; OEM855: Cyrilic [Serbian, Macedonian, Bulgarian]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp855
+
+;; OEM856: Hebrew
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp856
+
+;; OEM857: Latin-5 [Turkish]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp857
+
+;; OEM858: Latin-1+Euro
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp858
+
+;; OEM859: Latin-9 [Western Europe]
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp859
+
+;; OEM860: Portugese
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp860
+
+;; OEM861: Icelandic
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp861
+
+;; OEM862: Hebrew
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp862
+
+;; OEM863: Canadian French
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp863
+
+;; OEM864: Arabic
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp864
+
+;; OEM865: Danish, Norwegian
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp865
+
+;; OEM866: Belarusian, Ukrainian, Russian
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp866
+
+;; OEM867: Hebrew+Euro
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp867
+
+;; OEM868: Urdu
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp868
+
+;; OEM869: Greek-2
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp869
+
+;; OEM867: Cyrilic
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp867
+
+;; OEM874: Thai
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp874
+
+;; OEM876: OCR-A
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp876
+
+;; OEM877: KOI8-R
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp877
+
+;; OEM891: Korean
+g++ main.cpp -o wikibot.exe -finput-charset=utf-8 -fexec-charset=cp891
