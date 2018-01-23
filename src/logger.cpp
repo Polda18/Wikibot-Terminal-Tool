@@ -8,7 +8,8 @@
 
 #include "logger.h"
 
-wikibot::logger::log(std::string line, std::string file) {
+void wikibot::logger::log(std::string line, std::string file)
+{
     std::ofstream logfile(file, std::ios_base::app);
     time_t t = time(0);
     struct tm * now = local_time(&t);
