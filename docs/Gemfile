@@ -1,3 +1,8 @@
 source 'https://rubygems.org'
 
 gemspec
+gem "github-pages", group: :jekyll_plugins
+title: "Wikibot Terminal Tool"
+description: "Documentation sites of a wikibot terminal online configuration tool"
+show_downloads: "true"
+google_analytics: "UA-113155569-1"

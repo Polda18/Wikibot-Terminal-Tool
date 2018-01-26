@@ -2,6 +2,8 @@
 layout: default
 ---
 
+_PROJECT PAGES COMING SOON_
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
