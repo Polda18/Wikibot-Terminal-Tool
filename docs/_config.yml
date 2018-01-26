@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: "Wikibot Terminal Tool"
+description: "Documentation sites of a wikibot terminal online configuration tool"
+show_downloads: "true"
+google_analytics: "UA-113155569-1"
