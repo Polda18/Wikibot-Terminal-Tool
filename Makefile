@@ -24,10 +24,10 @@ en-UK:
     ifeq ($(OS),Windows_NT)
         mkdir bin/win32/locale.en-UK
         windres src/resources.rc -O conff -o src/resources.res
-        {CC} src/resources.res src/main.cpp src/logger.cpp src/functions.cpp src/Config.cpp src/locale/locale.en-US.cpp -finput-charset=utf-8 -fexec-charset=cp850 -o bin/win32/locale.en-UK/{APP}.exe
+        {CC} src/resources.res src/main.cpp src/logger.cpp src/functions.cpp src/Config.cpp src/locale/locale.en-UK.cpp -finput-charset=utf-8 -fexec-charset=cp850 -o bin/win32/locale.en-UK/{APP}.exe
     else
         mkdir -p bin/linux-i386/locale.en-UK
-        {CC} src/main.cpp src/logger.cpp src/functions.cpp src/Config.cpp src/locale/locale.en-US.cpp -o bin/linux-i386/locale.en-UK/{APP}
+        {CC} src/main.cpp src/logger.cpp src/functions.cpp src/Config.cpp src/locale/locale.en-UK.cpp -o bin/linux-i386/locale.en-UK/{APP}
         cp src/wikibot.png bin/linux-i386/wikibot.png
     endif
 cs-CZ:
