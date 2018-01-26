@@ -1,0 +1,10 @@
+/*************************************
+ * Wikibot Terminal Tool
+ * 
+ * File: recourses.rc
+ * Description: Windows taskbar icon
+ *************************************/
+
+#include "resources.h"
+
+MAINICON ICON "wikibot.ico"
