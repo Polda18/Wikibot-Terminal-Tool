@@ -13,12 +13,11 @@
 
 namespace wikibot
 {
-    class locale
+    namespace locale
     {
-        class general
+        namespace general
         {
             // General locale strings
-        public:
             std::string done_capt;
             std::string error_capt;
             std::string error_fopen;
@@ -31,45 +30,40 @@ namespace wikibot
             std::string log_error;
         };
         
-        class header
+        namespace header
         {
             // Header locale strings
-        public:
             std::string program_name;
             std::string version;
         };
 
-        class online_check
+        namespace online_check
         {
             // Check of server online state locale strings
-        public:
             std::string checking_wiki_server;
             std::string checking_main_script;
             std::string checking_json_define;
         };
 
-        class login
+        namespace login
         {
             // Login session locale strings
-        public:
             std::string uname_capt;
             std::string passw_capt;
         };
 
-        class config
+        namespace config
         {
             // Configuration session locale strings
-        public:
             std::string head_capt;
             std::string wiki_server_capt;
             std::string main_script_capt;
             std::string json_define_capt;
         };
 
-        class command_loop
+        namespace command_loop
         {
             // Command loop session locale strings
-        public:
             std::string prompt;
             std::string syntax_incorrect;
             std::string command_unknown;
