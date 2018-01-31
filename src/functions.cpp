@@ -8,7 +8,14 @@
 
 #include "functions.h"
 
-void wikibot::configure(int config_type) {
+// Local functions definition
+void config_wiki_server();
+void config_main_script();
+void config_definitions_file();
+
+// Library functions implementation
+void wikibot::configure(int config_type)
+{
     switch(config_type) {
         case 1:
             config_wiki_server();
@@ -22,4 +29,30 @@ void wikibot::configure(int config_type) {
         default:
             break;
     }
+}
+
+void wikibot::read_config(wikibot::Config config)
+{
+    // CODE HERE
+}
+
+void wikibot::write_config(wikibot::Config config)
+{
+    // CODE HERE
+}
+
+// Local functions implementations
+void config_wiki_server()
+{
+    // CODE HERE
+}
+
+void config_main_script()
+{
+    // CODE HERE
+}
+
+void config_definitions_file()
+{
+    // CODE HERE
 }
