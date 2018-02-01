@@ -67,6 +67,7 @@ namespace wikibot
             std::string prompt;
             std::string syntax_incorrect;
             std::string command_unknown;
+            std::string not_logged_in;
         };
     };
 };
