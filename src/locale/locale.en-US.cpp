@@ -43,3 +43,4 @@ wikibot::locale::config::json_define_capt = "Define wikibot JSON definition file
 wikibot::locale::command_loop::prompt = "Enter command > ";
 wikibot::locale::command_loop::syntax_incorrect = "Entered command syntax is incorrect. Type 'help' for help topics.";
 wikibot::locale::command_loop::command_unknown = "Unknown command. Type 'help' for help topics.";
+wikibot::locale::command_loop::not_logged_in = "You're not logged in. Please log in using 'login <bot name> <password>' command.";
