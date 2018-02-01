@@ -17,6 +17,11 @@
 
 namespace wikibot
 {
+    namespace config
+    {
+        const std::string filename = "config.cfg"
+    };
+    
     class Config
     {
     private:

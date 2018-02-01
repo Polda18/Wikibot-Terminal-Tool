@@ -19,6 +19,9 @@
 namespace wikibot {
     namespace logger
     {
+        const std::string runtime = "runtime.log";
+        const std::string errors = "errors.log";
+        
         void log(std::string line, std::string file);
     };
 };

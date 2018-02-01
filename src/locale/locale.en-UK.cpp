@@ -11,14 +11,16 @@
 // General locale strings
 wikibot::locale::general::done_capt = "Done";
 wikibot::locale::general::error_capt = "Error!";
-wikibot::locale::general::error_fopen = "Can't open file";
-wikibot::locale::general::error_fwrite = "Can't write to file";
 wikibot::locale::general::info_config_fopen = "Opening configuration file ... ";
 wikibot::locale::general::info_config_fwrite = "Writing to configuration file ... ";
 wikibot::locale::general::info_config_memcpy = "Writing to memory ... ";
-wikibot::locale::general::log_capt = "Log";
-wikibot::locale::general::log_error = "[ERROR]";
-wikibot::locale::general::log_run = "[PROTOCOL]";
+
+// Logger locale strings
+wikibot::locale::logger::error_fopen = "Can't open file.";
+wikibot::locale::logger::error_fwrite = "Can't write to file.";
+wikibot::locale::logger::info_config_fread = "Reading from configuration file";
+wikibot::locale::logger::info_config_fwrite = "Writing to configuration file";
+wikibot::locale::logger::info_config_memcpy = "Writing to memory";
 
 // Header locale strings
 wikibot::locale::header::program_name = "Wikibot Terminal Tool";
@@ -34,6 +36,7 @@ wikibot::locale::login::uname_capt = "Username > ";
 wikibot::locale::login::passw_capt = "Password > ";
 
 // Configuration session locale strings
+wikibot::locale::config::head_missing = "Configuration file is missing or corrupted. Create a new configuration.";
 wikibot::locale::config::head_capt = "Wikibot configuration. Continue using instructions.\nRead manual for further details.";
 wikibot::locale::config::wiki_server_capt = "Define used wiki server > ";
 wikibot::locale::config::main_script_capt = "Define wikibot main script URL > ";

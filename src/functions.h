@@ -14,17 +14,15 @@
 #include <string>
 
 #include "Config.h"
-#include "logger.h"
-#include "locale/locale.h"
 
 //---------------------------------------------------------------
 
 namespace wikibot
 {
     // Configuration
-    void configure(int config_type);
-    void read_config(void);
-    void write_config(void);
+    void configure(int config_type, wikibot::Config config);
+    void read_config(wikibot::Config config);
+    void write_config(wikibot::Config config);
 }
 
 #endif

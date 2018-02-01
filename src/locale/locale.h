@@ -20,14 +20,18 @@ namespace wikibot
             // General locale strings
             std::string done_capt;
             std::string error_capt;
-            std::string error_fopen;
-            std::string error_fwrite;
             std::string info_config_fopen;
             std::string info_config_memcpy;
             std::string info_config_fwrite;
-            std::string log_capt;
-            std::string log_run;
-            std::string log_error;
+        };
+
+        namespace logger
+        {
+            std::string error_fopen;
+            std::string error_fwrite;
+            std::string info_config_fread;
+            std::string info_config_fwrite;
+            std::string info_config_memcpy;
         };
         
         namespace header
@@ -55,6 +59,7 @@ namespace wikibot
         namespace config
         {
             // Configuration session locale strings
+            std::string head_missing;
             std::string head_capt;
             std::string wiki_server_capt;
             std::string main_script_capt;

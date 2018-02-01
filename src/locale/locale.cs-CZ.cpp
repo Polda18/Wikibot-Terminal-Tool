@@ -11,14 +11,16 @@
 // General locale strings
 wikibot::locale::general::done_capt = "Hotovo";
 wikibot::locale::general::error_capt = "Chyba!";
-wikibot::locale::general::error_fopen = "Soubor se nepodařilo otevřít";
-wikibot::locale::general::error_fwrite = "Do souboru nelze zapisovat";
 wikibot::locale::general::info_config_fopen = "Otevírám soubor kofigurace ... ";
 wikibot::locale::general::info_config_fwrite = "Zapisuji do souboru konfigurace ... ";
 wikibot::locale::general::info_config_memcpy = "Zapisuji do paměti ... ";
-wikibot::locale::general::log_capt = "Záznam";
-wikibot::locale::general::log_error = "[CHYBA]";
-wikibot::locale::general::log_run = "[PROTOKOL]";
+
+// Logger locale strings
+wikibot::locale::logger::error_fopen = "Soubor se nepodařilo otevřít.";
+wikibot::locale::logger::error_fwrite = "Do souboru nelze zapisovat.";
+wikibot::locale::logger::info_config_fread = "Čtení ze souboru konfigurace";
+wikibot::locale::logger::info_config_fwrite = "Zápis do souboru konfigurace";
+wikibot::locale::logger::info_config_memcpy = "Zápis do paměti";
 
 // Header locale strings
 wikibot::locale::header::program_name = "Wikibot Terminal Tool";
@@ -34,6 +36,7 @@ wikibot::locale::login::uname_capt = "Login > ";
 wikibot::locale::login::passw_capt = "Heslo > ";
 
 // Configuration session locale strings
+wikibot::locale::config::head_missing = "Soubor konfigurace chybí nebo je poškozen. Vytvořte novou konfiguraci.";
 wikibot::locale::config::head_capt = "Konfigurace wikibota. Postupujte dle instrukcí.\nPro více informací si přečtěte manuál.";
 wikibot::locale::config::wiki_server_capt = "Definujte používaný wiki server > ";
 wikibot::locale::config::main_script_capt = "Definujte URL hlavního skriptu wikibota > ";
