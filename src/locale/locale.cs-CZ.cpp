@@ -43,3 +43,4 @@ wikibot::locale::config::json_define_capt = "Definujte URL definičního JSON so
 wikibot::locale::command_loop::prompt = "Váš příkaz > ";
 wikibot::locale::command_loop::syntax_incorrect = "Syntaxe zadaného příkazu není správná. Zadejte příkaz 'help' pro nápovědu.";
 wikibot::locale::command_loop::command_unknown = "Neznámý příkaz. Zadejte příkaz 'help' pro nápovědu.";
+wikibot::locale::command_loop::not_logged_in = "Nejste přihlášen. Přihlaste se příkazem 'login <jméno bota> <heslo>'.";
