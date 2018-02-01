@@ -11,7 +11,7 @@ It's simple `key=value` pair assignment, each one per line. There are actually t
 ```config
 wiki_server=cs.wikipedia.org
 wbot_mainscript=https://www.example.com/wikibot/main.php
-wbot_funcscomdef=https://www.example.com/wiokibot/definitions.json
+wbot_funcscomdef=https://www.example.com/wikibot/definitions.json
 ```
 
 * `wiki_server` is the Wiki server host domain the wikibot operates on.
