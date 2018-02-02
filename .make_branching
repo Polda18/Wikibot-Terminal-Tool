@@ -1,0 +1,10 @@
+OS := $(shell uname)
+ifeq ($(OS),Windows_NT)
+    # Run Windows commands
+else
+    ifeq ($(OS),Darwin)
+        # Run MacOS commands
+    else
+        # Run Linux commands
+    endif
+endif
