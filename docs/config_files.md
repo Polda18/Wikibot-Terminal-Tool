@@ -25,7 +25,7 @@ In order to make the wikibot tool work, it needs to know functions the wikibot i
 
 ```json
 {
-    "functions" : {
+    "functions": {
         "wbot_manual_typos": [
             {
                 "num_articles": "int"
@@ -45,7 +45,7 @@ In order to make the wikibot tool work, it needs to know functions the wikibot i
             }
         ]
     },
-    "commands" : {
+    "commands": {
         "manual": [
             {
                 "typos": [
