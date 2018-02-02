@@ -30,3 +30,5 @@ Open-Source command line terminal tool called _Wikibot Terminal Tool_ is a proje
 
 ## Important notice!
 I am not responsible to any damage caused by malicious contributions! Infected source code will be reviewed and deleted from repository and malicious contributor permanently banned! I am not responsible for safety of forks made out of this repository, nor do I have anything to do with development and/or maintainance of these forks. Please, read the [`README.md` file in repository](https://github.com/Polda18/Wikibot-Terminal-Tool/README.md) for more informations about the project and brief development informations. Follow table of content in this page for detailed development informations.
+
+[Back to home page](index)&hellip;
