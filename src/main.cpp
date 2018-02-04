@@ -9,6 +9,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 #include "locale/locale.h"
 #include "functions.h"
@@ -43,6 +44,11 @@ int main(void)
 
     while(true)     // Ensure the endless loop for command listener
     {
+        std::cout << wikibot::locale::command_loop::prompt;
+        std::string command_line;
+        std::getline(std::cin, command_line);
+        
+        std::vector<std::string> command_parse;
         // CODE HERE
     }
 
