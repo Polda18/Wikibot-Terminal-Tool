@@ -16,6 +16,8 @@
 #include "logger.h"
 #include "locale/locale.h"
 
+#include "keywords.h"
+#include "msg_code.h"
 #include "functions.h"
 
 // Local functions definition
@@ -75,17 +77,17 @@ void wikibot::read_config(wikibot::Config config)
 
             if(config_line.get(0).equal("wiki_server"))
             {
-                if(config_line.length > 1)
+                if(config_line.size() > 1)
                     config.set_wiki_server(config_line.get(1));
             }
             else if(config_line.get(0).equal("wbot_mainscript"))
             {
-                if(config_line.length > 1)
+                if(config_line.size() > 1)
                     config.set_main_script(config_line.get(1));
             }
             else if(config_line.get(0).equal("wbot_funcscomdef"))
             {
-                if(config_line.length > 1)
+                if(config_line.size() > 1)
                     config.set_definitions_file(config_line.get(1));
             }
         }
@@ -133,6 +135,36 @@ void wikibot::write_config(wikibot::Config config)
 
         std::cout << wikibot::locale::general::done_capt << std::endl;
         wikibot::logger::log(wikibot::locale::logger::info_config_fwrite, wikibot::logger::runtime);
+    }
+}
+
+void wikibot::print_help(void)
+{
+    std::cout << wikibot::locale::help::general::header << std::endl;
+    std::cout << wikibot::locale::help::general::line1 << std::endl;
+    std::cout << wikibot::locale::help::general::line2 << std::endl;
+    std::cout << wikibot::locale::help::general::line3 << std::endl;
+    std::cout << wikibot::locale::help::general::line4 << std::endl;
+    std::cout << wikibot::locale::help::general::line5 << std::endl;
+    std::cout << std::endl;
+}
+
+void wikibot::print_help(const std::string help_keyword)
+{
+    if(help_keyword.equal(wikibot::command::help::topic::configuration))
+        print_help_topic_config();
+    else if(help_keyword.equal(wikibot::command::help::topic::emergency))
+        print_help_topic_emergency();
+    else if(help_keyword.equal(wikibot::command::help::topic::execution))
+        print_help_topic_exec();
+    else if(help_keyword.equal(wikibot::command::help::topic::maintenance))
+        print_help_topic_maintain();
+    else if(help_keyword.equal(wikibot::command::help::topic::useraccount))
+        print_help_topic_users();
+    else
+    {
+        std::cerr << wikibot::locale::help::error::invalid_argument_capt <<
+                     help_keyword << wikibot::locale::help::error::invalid_argument_end << std::endl;
     }
 }
 

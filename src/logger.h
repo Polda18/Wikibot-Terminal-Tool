@@ -23,7 +23,7 @@ namespace wikibot {
         const std::string errors = "errors.log";
         
         void log(std::string line, std::string file);
-    };
-};
+    }
+}
 
 #endif

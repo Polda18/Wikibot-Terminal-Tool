@@ -20,7 +20,7 @@ namespace wikibot
     namespace config
     {
         const std::string filename = "config.cfg"
-    };
+    }
     
     class Config
     {
@@ -43,6 +43,6 @@ namespace wikibot
         void set_main_script(std::string);
         void set_definitions_file(std::string);
     };
-};
+}
 
 #endif

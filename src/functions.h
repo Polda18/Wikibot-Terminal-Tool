@@ -23,6 +23,14 @@ namespace wikibot
     void configure(int config_type, wikibot::Config config);
     void read_config(wikibot::Config config);
     void write_config(wikibot::Config config);
+
+    // Help
+    void print_help(void);
+    void print_help(const std::string help_keyword);
+
+    // Login & logout
+    void login();
+    void logout();
 }
 
 #endif
