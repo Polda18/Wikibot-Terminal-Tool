@@ -17,6 +17,7 @@
 #include "keywords.h"
 #include "functions.h"
 #include "logger.h"
+#include "kbhit.h"
 
 int main(void)
 {
