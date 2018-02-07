@@ -56,3 +56,6 @@ wikibot::locale::help::general::line3  = "  useraccount   => Informations about 
 wikibot::locale::help::general::line4  = "  maintenance   => Informations about local and remote maintenance";
 wikibot::locale::help::general::line5  = "  emergency     => Commands to be used in emergency situations";
 wikibot::locale::help::general::usage  = "Type 'help <topic>' in command prompt for informations you need.";
+
+wikibot::locale::help::error::invalid_argument_capt = "Unknown command or topic '";     // Opening - unknown keyword follows
+wikibot::locale::help::error::invalid_argument_end  = "'. Type 'help' in command prompt for list of available topics.";     // Closing - unknown keyword leads
