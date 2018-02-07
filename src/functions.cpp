@@ -27,6 +27,12 @@ void config_wiki_server();
 void config_main_script();
 void config_definitions_file();
 
+void print_help_topic_config();
+void print_help_topic_emergency();
+void print_help_topic_exec();
+void print_help_topic_maintain();
+void print_help_topic_users();
+
 // Library functions implementation
 void wikibot::configure(int config_type, wikibot::Config config)
 {
@@ -216,4 +222,29 @@ void config_definitions_file(wikibot::Config config)
     std::getline(std::cin, configuration);
     config.set_definitions_file(configuration);
     wikibot::logger::log(wikibot::locale::logger::info_config_memcpy, wikibot::logger::runtime);
+}
+
+void print_help_topic_config()
+{
+    // TODO
+}
+
+void print_help_topic_emergency()
+{
+    // TODO
+}
+
+void print_help_topic_exec()
+{
+    // TODO
+}
+
+void print_help_topic_maintain()
+{
+    // TODO
+}
+
+void print_help_topic_users()
+{
+    // TODO
 }
