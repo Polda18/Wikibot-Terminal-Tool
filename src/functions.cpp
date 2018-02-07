@@ -18,6 +18,8 @@
 
 #include "keywords.h"
 #include "msg_code.h"
+#include "terminal.h"
+
 #include "functions.h"
 
 // Local functions definition
@@ -166,6 +168,26 @@ void wikibot::print_help(const std::string help_keyword)
         std::cerr << wikibot::locale::help::error::invalid_argument_capt <<
                      help_keyword << wikibot::locale::help::error::invalid_argument_end << std::endl;
     }
+}
+
+void wikibot::login(wikibot::User user)
+{
+    std::cout << wikibot::locale::login::uname_capt;
+    std::getline(std::cin, user.username);
+    std::cout << wikibot::locale::login::passw_capt;
+    terminal::hide_input();
+    std::getline(std::cin, user.password);
+    std::cout << std::endl;
+    terminal::show_input();
+    
+    // CONTINUE HERE
+}
+
+void wikibot::logout(wikibot::User user)
+{
+    user.username = null;
+    user.username = null;
+    user.logged_in = false;
 }
 
 // Local functions implementations
