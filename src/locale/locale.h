@@ -78,6 +78,7 @@ namespace wikibot
 
         namespace help
         {
+            // Help locale strings
             namespace general
             {
                 const std::string header;
