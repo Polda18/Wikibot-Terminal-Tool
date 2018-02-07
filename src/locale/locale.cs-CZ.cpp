@@ -58,4 +58,4 @@ wikibot::locale::help::general::line5  = "  emergency     => Příkazy, které l
 wikibot::locale::help::general::usage  = "Zadejte příkaz 'help <téma>' pro informace, které Vás zajímají.";
 
 wikibot::locale::help::error::invalid_argument_capt = "Neznámý příkaz či téma '";   // Opening - unknown keyword follows
-wikibot::locale::help::error::invalid_argument_end  = "'. Zadejte příkaz 'help' pro seznam dostupných témat.";  // Closing - unkown keyword leads
+wikibot::locale::help::error::invalid_argument_end  = "'. Zadejte příkaz 'help' pro seznam dostupných témat.";  // Closing - unknown keyword leads
