@@ -87,6 +87,22 @@ namespace wikibot
                 const std::string line4;
                 const std::string line5;
             }
+            
+            namespace topic
+            {
+                // CONTINUE HERE
+            }
+            
+            namespace command
+            {
+                // CONTINUE HERE
+            }
+            
+            namespace error
+            {
+                const std::string invalid_argument_capt;
+                const std::string invalid_argument_end;
+            }
         }
     }
 }
