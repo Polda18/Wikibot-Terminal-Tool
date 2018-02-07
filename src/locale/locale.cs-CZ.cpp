@@ -56,3 +56,6 @@ wikibot::locale::help::general::line3  = "  useraccount   => Informace o uživat
 wikibot::locale::help::general::line4  = "  maintenance   => Informace o údržbě místní i vzdálené";
 wikibot::locale::help::general::line5  = "  emergency     => Příkazy, které lze použít v případě nouze";
 wikibot::locale::help::general::usage  = "Zadejte příkaz 'help <téma>' pro informace, které Vás zajímají.";
+
+wikibot::locale::help::error::invalid_argument_capt = "Neznámý příkaz či téma '";   // Opening - unknown keyword follows
+wikibot::locale::help::error::invalid_argument_end  = "'. Zadejte příkaz 'help' pro seznam dostupných témat.";  // Closing - unkown keyword leads
