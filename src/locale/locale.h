@@ -103,7 +103,7 @@ namespace wikibot
             namespace error
             {
                 const std::string invalid_argument_capt;    // Opening - unknown keyword follows
-                const std::string invalid_argument_end;     // Closing - unkown keyword leads
+                const std::string invalid_argument_end;     // Closing - unknown keyword leads
             }
         }
     }
