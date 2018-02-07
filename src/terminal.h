@@ -2,7 +2,7 @@
  * Wikibot Terminal Tool - by Polda18
  * LICENCE: GNU-GPL-v3.1
  * 
- * File: login.h
+ * File: terminal.h
  * Description: Implementation of terminal input hide function
  ***************************************************************/
 
