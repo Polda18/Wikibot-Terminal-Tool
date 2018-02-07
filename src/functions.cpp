@@ -154,7 +154,7 @@ void wikibot::print_help(void)
     std::cout << wikibot::locale::help::general::line3 << std::endl;
     std::cout << wikibot::locale::help::general::line4 << std::endl;
     std::cout << wikibot::locale::help::general::line5 << std::endl;
-    std::cout << std::endl;
+    std::cout << wikibot::locale::help::general::usage << std::endl;
 }
 
 void wikibot::print_help(const std::string help_keyword)
