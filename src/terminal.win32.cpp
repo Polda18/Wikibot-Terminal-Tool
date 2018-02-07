@@ -15,13 +15,13 @@
 HANDLE hStdin = GetStdHandle(STD_INPUT_HANDLE);
 DWORD mode = 0;
 
-terminal::hide_input(void)
+void terminal::hide_input(void)
 {
     GetConsoleMode(hStdin, &mode);
     SetConsoleMode(hStdin, mode & (~ENABLE_ECHO_INPUT));
 }
 
-terminal::show_input(void)
+void terminal::show_input(void)
 {
     SetConsoleMode(hStdin, mode);
 }
