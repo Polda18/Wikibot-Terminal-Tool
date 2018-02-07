@@ -48,3 +48,12 @@ wikibot::locale::command_loop::prompt = "Enter command > ";
 wikibot::locale::command_loop::syntax_incorrect = "Entered command syntax is incorrect. Type 'help' for help topics.";
 wikibot::locale::command_loop::command_unknown = "Unknown command. Type 'help' for help topics.";
 wikibot::locale::command_loop::not_logged_in = "You're not logged in. Please log in using 'login <bot name> <password>' command.";
+
+// Help locale strings
+wikibot::locale::help::general::header = "Choose a topic containing list of appropriate commands from following list:";
+wikibot::locale::help::general::line1  = "  configuration => Info and commands about wikibot configuration";
+wikibot::locale::help::general::line2  = "  execution     => Info and commands about remote access";
+wikibot::locale::help::general::line3  = "  useraccount   => Info about wikibot user account";
+wikibot::locale::help::general::line4  = "  maintenance   => Info about local and remote maintenance";
+wikibot::locale::help::general::line5  = "  emergency     => Commands usable in emergency situations";
+wikibot::locale::help::general::usage  = "Type 'help <topic>' in command prompt for info you need.";
