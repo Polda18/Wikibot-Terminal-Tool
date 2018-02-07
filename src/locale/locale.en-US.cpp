@@ -2,7 +2,7 @@
  * Wikibot Terminal Tool - by Polda18
  * LICENCE: GNU-GPL-v3.1
  * 
- * File: locale.en-UK.cpp
+ * File: locale.en-US.cpp
  * Description: United States - English locale file
  ***************************************************************/
 
