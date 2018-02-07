@@ -86,6 +86,7 @@ namespace wikibot
                 const std::string line3;
                 const std::string line4;
                 const std::string line5;
+                const std::string usage;
             }
             
             namespace topic
