@@ -29,8 +29,8 @@ namespace wikibot
     void print_help(const std::string help_keyword);
 
     // Login & logout
-    void login();
-    void logout();
+    void login(void);
+    void logout(void);
 }
 
 #endif
